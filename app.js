@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.get('/login',(req,res)=>{
     const html = `
     <!DOCTYPE html>
-    <html>
+    <html>cls
     <body>
         <form id="myForm" action="/user" method="POST">
             <input type="text" name="username" id="username" placeholder="Enter the username">
